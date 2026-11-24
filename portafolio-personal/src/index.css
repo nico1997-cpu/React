@@ -57,14 +57,48 @@ body {
   justify-content: center;
 }
 
+.avatar-img {
+  width: 8rem;
+  height: 8rem;
+  margin: 0 auto var(--espacio);
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  border: 3px solid var(--color-acento);
+  background-color: var(--color-superficie);
+}
+
 .hero-role {
   color: var(--color-acento);
   font-weight: 600;
 }
 
+.hero-sub {
+  color: var(--color-texto-suave);
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+
 .hero-text {
   color: var(--color-texto-suave);
   margin-top: var(--espacio);
+}
+
+.home-sections {
+  margin-top: 1.5rem;
+}
+
+.info-list {
+  list-style: none;
+  margin: 0.5rem 0;
+  display: grid;
+  gap: 0.5rem;
+  color: var(--color-texto-suave);
+}
+
+.info-list strong {
+  color: var(--color-texto);
 }
 
 /* 6. Tarjetas de proyecto */
